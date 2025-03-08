@@ -3,7 +3,7 @@ import styles from './footer.module.css';
 
 const Footer = () => {
   // नया स्थान के निर्देशांक
-  const address = "RD 860 Govind Nagar Bikaner Rajasthan 334001";
+  const address = "RD 860 Bangarsar  Bikaner Rajasthan  334305";
   // दिए गए निर्देशांक के लिए Google मैप्स URL (सही URL एन्कोडिंग सुनिश्चित करें)
   const mapUrl = "https://www.google.com/maps/search/?api=1&query=28%C2%B004'43%22N+72%C2%B036'27%22E";
 
@@ -20,7 +20,7 @@ const Footer = () => {
   <h3>संपर्क</h3>
   <p>ईमेल: yadavsanjeet@gmail.com</p>
   <p>
-    फोन: <a href="tel:8306320680" className={styles.phoneLink}>83063 20680</a>
+    फोन: <a href="tel:8306320680" className={styles.phoneLink}>8306320680</a>
   </p>
 </div>
 

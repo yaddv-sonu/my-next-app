@@ -31,7 +31,7 @@ const Order = () => {
 
 
   const handleInstagram = () => {
-    window.open('https://www.instagram.com/ownerusername/', '_blank');
+    window.open('https://www.instagram.com/yadavsanjeet64/', '_blank');
   };
 
   const handleMobileCall = () => {
