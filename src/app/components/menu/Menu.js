@@ -1,7 +1,7 @@
 // components/Menu.js
 import React from 'react';
 import Image from 'next/image';
-import styles from './Menu.module.css';
+import styles from './menu.module.css';
 
 const Menu = () => {
   const menuData = [
