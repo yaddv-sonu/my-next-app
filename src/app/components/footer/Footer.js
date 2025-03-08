@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Footer.module.css';
+import styles from './footer.module.css';
 
 const Footer = () => {
   // नया स्थान के निर्देशांक
