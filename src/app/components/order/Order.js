@@ -13,11 +13,14 @@ const Order = () => {
 
   // Updated menu options in Hindi with corresponding prices
   const menuOptions = [
-    { value: 'बर्गर', label: 'बर्गर', price: 50 },
-    { value: 'चाउमीन फुल', label: 'चाउमीन फुल', price: 50 },
+   { value: 'आलू टिक्की बर्गर', label: 'आलू टिक्की बर्गर', price: 50 }, 
+   { value: 'चाउमीन बर्गर', label: 'चाउमीन बर्गर', price: 40 }, 
+   { value: 'चाउमीन फुल', label: 'चाउमीन फुल', price: 50 },
     { value: 'चाउमीन हाफ', label: 'चाउमीन हाफ', price: 30 },
     { value: 'मंचूरियन फुल', label: 'मंचूरियन फुल', price: 90 },
     { value: 'मंचूरियन हाफ', label: 'मंचूरियन हाफ', price: 50 },
+    { value: 'हाफ मोमोज', label: 'हाफ मोमोज', price: 40 },
+    { value: 'मोमोज फुल', label: 'मोमोज फुल', price: 80 }, 
   ];
 
   // Quantity options for each item

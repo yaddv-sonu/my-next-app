@@ -4,29 +4,50 @@ import Image from 'next/image';
 import styles from './menu.module.css';
 
 const Menu = () => {
-  const menuData = [
-    { 
-      image: "/image/burger.jpg",
-      id: 1,
-      name: 'स्वादिष्ट बर्गर',
-      description: 'रसदार पैटी, पनीर, और ताज़ी सब्जियों से बना शानदार बर्गर।',
-      price: 50,
-    },
-    {
-      image: "/image/manchurian.jpg",
-      id: 2,
-      name: 'कुरकुरे मंचूरियन',
-      description: 'भारतीय-चाइनीज़ व्यंजन, मसालेदार और कुरकुरे।',
-      price: 90,
-    },
-    {
-      image: "/image/noodles.jpg",
-      id: 3,
-      name: 'स्वादिष्ट चाऊमीन',
-      description: 'सब्जियों और सोया सॉस के साथ मसालेदार और ताजगी भरे चाऊमीन।',
-      price: 50,
-    },
-  ];
+ const menuData = [
+  { 
+    image: "/image/burger.jpg",
+    id: 1,
+    name: 'आलू टिक्की बर्गर',
+    description: 'आलू की रसदार टिक्की, पनीर, और ताज़ी सब्जियों के साथ एक स्वादिष्ट बर्गर।',
+    price: 50,
+  },
+  { 
+    image: "/image/Chowmeinburgar.jpg",
+    id: 2,
+    name: 'चाउमीन बर्गर',
+    description: 'क्रिस्पी चाउमीन, रसदार पैटी, और ताज़ी सब्जियों का अनोखा मिश्रण।',
+    price: 40,
+  },
+  {
+    image: "/image/manchurian.jpg",
+    id: 3,
+    name: 'कुरकुरे मंचूरियन',
+    description: 'कुरकुरी सब्जियों और मसालेदार ग्रेवी के साथ भारतीय-चाइनीज़ स्वाद।',
+    price: 90,
+  },
+  {
+    image: "/image/noodles.jpg",
+    id: 4,
+    name: 'स्वादिष्ट चाऊमीन',
+    description: 'सब्जियों और सोया सॉस के साथ मसालेदार और ताज़ा चाऊमीन।',
+    price: 50,
+  },
+  {
+    image: "/image/halfMomos.jpg",
+    id: 5, 
+    name: 'स्वादिष्ट हाफ मोमोज',
+    description: 'हल्के मसालेदार भरावन के साथ छोटे, स्वादिष्ट स्टीम्ड मोमोज।',
+    price: 40,
+  },
+  {
+    image: "/image/Momos.jpg",
+    id: 6, 
+    name: 'स्वादिष्ट फुल मोमोज',
+    description: 'रसीले भरावन और मसालेदार चटनी के साथ परफेक्ट स्टीम्ड मोमोज।',
+    price: 80,
+  },
+];
 
   return (
     <div className={styles.menu}>
